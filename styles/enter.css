@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	margin:0;
+}
+
+h1{
+	font-family: "Playfair Display", serif;
+	font-size: 2rem;
+	color: white;
+}
+
+.enterpage{
+	background-image: url('../images/alsofirstpage.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-top: 70vh;
+	padding-left: 20vh;
+}
