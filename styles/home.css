@@ -10,11 +10,11 @@ html,body{
 }
 
 main{
-	margin-left: 60vh;
+	margin-left: 30rem;
 }
 
 .navigation{
-	width: 40vh;
+	width: 30rem;
 	height: 100vh;
 	padding-top: 3rem;
 	position: fixed;
@@ -33,7 +33,7 @@ main{
 ul{
 	list-style-type: none;
 	padding-top: 6rem;
-	padding-bottom: 20rem;
+	padding-bottom: 18rem;
 }
 
 li{
@@ -48,14 +48,14 @@ li{
 }
 
 .insta{
-	padding-bottom: 4rem;
+	padding-bottom: 6rem;
 	display:flex;
-	justify-content: center;
-	align-items: center;
+	align-items: left;
+	padding-left: 6rem;
 }
 
 .insta-link{
-	width: 18vh;
+	width: 18rem;
 	text-decoration: none;
 	color: black;
 	font-family: 'Montserrat', sans-serif;
@@ -67,7 +67,7 @@ li{
 	display:flex;
 	align-items: center;
 	flex-direction: column;
-	width: 32vh;
+	width: 18rem;
 }
 
 h3{
