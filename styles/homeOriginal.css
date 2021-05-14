@@ -9,31 +9,28 @@ html,body{
 	padding: 0;
 }
 
-main{
-	margin-left: 60vh;
-}
-
 .navigation{
 	width: 40vh;
-	height: 100vh;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	padding-left: 3rem;
 	padding-top: 3rem;
-	position: fixed;
 }
 
-.navigation-link{
-		padding-left: 3rem;
+.navigation a{
 	text-decoration: none;
 	color: black;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.125rem;
 	font-weight: 500;
-	display: block;
 }
 
 ul{
 	list-style-type: none;
+	padding-left: 0;
 	padding-top: 6rem;
-	padding-bottom: 20rem;
+	margin:0;
 }
 
 li{
@@ -41,40 +38,42 @@ li{
 }
 
 .logo{
-		padding-left: 3rem;
 	font-family: "Playfair Display", serif;
 	font-size: 2rem;
 	font-weight: bold;
 }
 
-.instaminsta{
-	padding-bottom: 4rem;
-	display:flex;
-	justify-content: center;
+.footerinsta{
+	display: flex;
 	align-items: center;
+	flex-direction: column;
+	width: 30vh;
+	padding-top: 10rem;
+	margin-bottom: 6rem;
 }
 
 .instagram{
-	width: 18vh;
+	text-align: center;
+	width: 15vh;
 	text-decoration: none;
 	color: black;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 0.9rem;
-	font-weight: 500;
+	font-weight: 500;	
 }
 
-.copymopy{
-	display:flex;
-	align-items: center;
+.footercopyright{
+	display: flex;
+	align-items: left;
 	flex-direction: column;
-	width: 32vh;
+	width: 40vh;
 }
 
 h3{
-	text-orientation: center;
+	text-align: center;
+	width: 30vh;
 	color: black;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 0.75rem;
 	font-weight: 400;	
-} 
-
+}
