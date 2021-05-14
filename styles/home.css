@@ -47,14 +47,14 @@ li{
 	font-weight: bold;
 }
 
-.instaminsta{
+.insta{
 	padding-bottom: 4rem;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.instagram{
+.insta-link{
 	width: 18vh;
 	text-decoration: none;
 	color: black;
@@ -63,7 +63,7 @@ li{
 	font-weight: 500;
 }
 
-.copymopy{
+.copyright{
 	display:flex;
 	align-items: center;
 	flex-direction: column;
