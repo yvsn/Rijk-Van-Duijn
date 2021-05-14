@@ -8,23 +8,29 @@ html,body{
 	margin:0;
 	padding: 0;
 }
-@media (min-width:1025px){
+@media screen and (min-width:1025px){
+
 .logo-burger{
 	display: none;
 }
+
+.burger{
+	display: none;
+}
+
 main{
 	margin-left: 30rem;
 }
 
 .navigation{
-	width: 30rem;
+	width: 20rem;
 	height: 100vh;
 	padding-top: 3rem;
 	position: fixed;
 }
 
 .navigation-link{
-		padding-left: 3rem;
+	padding-left: 3rem;
 	text-decoration: none;
 	color: black;
 	font-family: 'Montserrat', sans-serif;
@@ -44,7 +50,7 @@ li{
 }
 
 .logo{
-		padding-left: 3rem;
+	padding-left: 3rem;
 	font-family: "Playfair Display", serif;
 	font-size: 2rem;
 	font-weight: bold;
@@ -81,7 +87,7 @@ h3{
 	font-weight: 400;	
 } 
 }
-@media (max-width:1024px){
+@media screen and (max-width:1024px){
 
 .menu-burger{
 	padding-top: 3rem;
@@ -90,7 +96,7 @@ h3{
 	justify-content: space-around;
 }
 .logo-burger{
-	width: 90vh;
+	width: 75vw;
 	padding-left: 3rem;
 	font-family: "Playfair Display", serif;
 	font-size: 2rem;
@@ -101,12 +107,42 @@ main{
 	margin-left: 0;
 }
 
-.navigation{
+.logo{
 display: none;	
-
 }
+.insta{
+	display: none;
+}
+.copyright{
+	display: none;
+}
+
+.navigation-link{
+	height: 5vh;
+	width: 100vw;
+	text-decoration: none;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.125rem;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+ul{
+	list-style-type: none;
+	padding-top: 6rem;
+	padding-bottom: 18rem;
+}
+
+li{
+	padding-bottom: 1.5rem;
+}
+
 .burger{ 
-	width: 10vh;
+	width:25vw;
 }
 .burger div{
 width: 1.5rem;
