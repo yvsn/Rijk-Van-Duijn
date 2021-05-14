@@ -15,7 +15,7 @@ html,body{
 }
 
 .enterpage{
-	background-image: url('../images/firstpage.jpg');
+	background-image: url('../images/EnterPage/firstpage.jpg');
 	background-size: cover;
 	background-position: center;
 	height:100vh;
@@ -28,7 +28,7 @@ html,body{
 
 @media (max-width:1024px) {
 	.enterpage{
-	background-image: url('../images/firstpageTablet.png');
+	background-image: url('../images/EnterPage/firstpageTablet.png');
 	background-size: cover;
 	background-position: center;
 	height:100vh;
@@ -42,7 +42,7 @@ html,body{
 
 @media (max-width:500px) {
 	.enterpage{
-	background-image: url('../images/firstpagePhone.jpg');
+	background-image: url('../images/EnterPage/firstpagePhone.jpg');
 	background-size: cover;
 	background-position: center;
 	height:100vh;
