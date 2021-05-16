@@ -34,4 +34,4 @@ window.onresize = function (event) {
     navOpen = false;
     navigation.style.display = "none";
   }
-};
+}
