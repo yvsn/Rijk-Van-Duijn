@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.enter {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.enterpage {
+  background-image: url("../images/enterpage/firstpage.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 70vh;
+  padding-left: 20vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .enterpage {
+    background-image: url("../images/enterpage/firstpageTablet.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70vh;
+    padding-left: 0vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .enterpage {
+    background-image: url("../images/enterpage/firstpagePhone.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70vh;
+    padding-left: 0vh;
+  }
+}

@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+html,body{
+	margin:0;
+	padding: 0;
+}
+
+.navigation{
+	width: 40vh;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	padding-left: 3rem;
+	padding-top: 3rem;
+}
+
+.navigation a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.125rem;
+	font-weight: 500;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0;
+	padding-top: 6rem;
+	margin:0;
+}
+
+li{
+	padding-bottom: 1.5rem;
+}
+
+.logo{
+	font-family: "Playfair Display", serif;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.footerinsta{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 30vh;
+	padding-top: 10rem;
+	margin-bottom: 6rem;
+}
+
+.instagram{
+	text-align: center;
+	width: 15vh;
+	text-decoration: none;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 500;	
+}
+
+.footercopyright{
+	display: flex;
+	align-items: left;
+	flex-direction: column;
+	width: 40vh;
+}
+
+h3{
+	text-align: center;
+	width: 30vh;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.75rem;
+	font-weight: 400;	
+}
