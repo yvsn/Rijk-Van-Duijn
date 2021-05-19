@@ -14,19 +14,6 @@ main {
   display: flex;
 }
 
-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 3rem;
-  width: calc(100vw - 300px);
-}
-
-section img {
-  width: 625px;
-  height: 756px;
-}
-
 header {
   display: flex;
   flex-direction: column;
@@ -91,24 +78,30 @@ footer {
   line-height: 1.5;
 }
 
+.swiper-container{
+	height: 100vh;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem, 3rem, 0, 0;
+  width: calc(100vw - 300px);
+}
+.swiper-slide{
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.swiper-slide img {
+width: auto !important;
+height: 80vh;
+}
+
 /* The commands that execute from breakpoint 950px */
 @media screen and (max-width: 950px) {
   main {
     flex-direction: column;
-  }
-
-  section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 3rem;
-    width: auto;
-    height: 60vh;
-  }
-
-  section img {
-    width: 384px;
-    height: 466px;
   }
 
   header {
@@ -148,6 +141,7 @@ footer {
     width: 100vw;
     height: 100vh;
     background: white;
+     z-index: 900;
   }
 
   /* definition of our animation for nav items */
@@ -185,6 +179,16 @@ footer {
     display: block;
   }
 
+.swiper-container{
+	height: 70vh;
+	width: 100%;
+	margin: 0,0;
+}
+
+.swiper-slide img {
+height: 70vh;
+}
+
   footer {
     position: absolute;
     left: 0;
@@ -194,7 +198,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 530px) {
   main {
     flex-direction: column;
   }
@@ -286,6 +290,16 @@ footer {
     color: black;
     display: block;
   }
+
+.swiper-container{
+	margin-top: 5vh;
+	height: 60vh;
+	width: 90vw;
+}
+
+.swiper-slide img {
+	height: 55vh;
+}
 
   footer {
     position: absolute;
