@@ -24,7 +24,7 @@ window.onresize = function (event) {
   var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 
   // if the screen is bigger than 1024px make the navigation visible
-  if (viewportWidth > 1024) {
+  if (viewportWidth > 950) {
     navOpen = true;
     navigation.style.display = "flex";
   }
