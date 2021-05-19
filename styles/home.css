@@ -19,7 +19,7 @@ section {
   align-items: center;
   justify-content: center;
   margin: 3rem;
-  width: calc(100vw - 300px);;
+  width: calc(100vw - 300px);
 }
 
 section img {
@@ -32,7 +32,7 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   padding: 40px;
-  min-width: 300px;;
+  min-width: 300px;
   height: 100vh;
 }
 
@@ -64,7 +64,7 @@ nav li a {
   text-decoration: none;
 }
 
-.footer {
+footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -91,33 +91,25 @@ nav li a {
   line-height: 1.5;
 }
 
-footer{
-	display: none;
-}
-
-.footermobile {
-  display: none;
-}
-
-/* The commands that execute from breakpoint 1024px */
+/* The commands that execute from breakpoint 950px */
 @media screen and (max-width: 950px) {
   main {
     flex-direction: column;
   }
 
   section {
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	margin: 3rem;
-  	width: auto;
-  	height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    width: auto;
+    height: 60vh;
   }
 
   section img {
-  	width: 384px;
-  	height: 466px;
-}
+    width: 384px;
+    height: 466px;
+  }
 
   header {
     display: flex;
@@ -193,61 +185,32 @@ footer{
     display: block;
   }
 
-  .footer {
-  display: none;
-  }
-
   footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100vw;
-  height: 20vh;
-  background-color: white;
-  bottom: 0;
-  z-index: -999;
-}
-  .footermobile{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }
-  .instagram {
-  color: black;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.9rem;
-  font-weight: 500;
-  text-decoration: none;
-  text-align: center;
 }
 
-.copyright {
-  margin: 3rem 0 0rem 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.75rem;
-  text-align: center;
-  line-height: 1.5;
-}
-}
 @media screen and (max-width: 500px) {
- main {
+  main {
     flex-direction: column;
   }
 
   section {
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	margin: 3rem;
-  	width: auto;
-  	height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    width: auto;
+    height: 50vh;
   }
 
   section img {
-  	width: 252px;
-  	height: 306px;
-}
+    width: 252px;
+    height: 306px;
+  }
 
   header {
     display: flex;
@@ -322,41 +285,4 @@ footer{
     color: black;
     display: block;
   }
-
-  .footer {
-  display: none;
-  }
-
-  footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100vw;
-  height: calc(100vh - 85vh);
-  background-color: white;
-  bottom: 0;
-  z-index: -999;
-}
-  .footermobile{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  }
-  .instagram {
-  color: black;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.7rem;
-  font-weight: 500;
-  text-decoration: none;
-  text-align: center;
-}
-
-.copyright {
-  margin: 3rem 0 0rem 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.5rem;
-  text-align: center;
-  line-height: 1.5;
-}
 }
