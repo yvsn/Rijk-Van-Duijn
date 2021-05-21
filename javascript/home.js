@@ -40,7 +40,7 @@ window.onresize = function (event) {
 
 
   var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 50,
+        spaceBetween: 30,
         autoHeight: true,
         cssmode: true,
         freemode: true,
@@ -51,4 +51,11 @@ window.onresize = function (event) {
           delay: 5000,
           disableOnInteraction: false,
         },
+         breakpoints: {
+        // when window width is <= 999px
+        530: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 40
+        }
+    }
       });
