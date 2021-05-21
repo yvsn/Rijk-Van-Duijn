@@ -35,23 +35,3 @@ window.onresize = function (event) {
     navigation.style.display = "none";
   }
 }
-
-  var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        autoHeight: true,
-        cssmode: true,
-        freemode: true,
-        loop: true,
-        speed: 1500,
-        centeredSlides: true,
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: false,
-        },
-         breakpoints: {
-        // when window width is <= 999px
-        530: {
-            spaceBetweenSlides: 40,
-        }
-    }
-      });
