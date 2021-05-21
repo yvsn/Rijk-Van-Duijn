@@ -303,7 +303,7 @@ height: 70vh;
 }
 
 .swiper-slide img {
-	height: 55vh;
+	height: 50vh;
 	animation-name: animation;
     animation-duration: 500ms;
 }
