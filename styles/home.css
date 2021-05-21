@@ -79,20 +79,21 @@ footer {
 }
 
 .swiper-container{
-	height: 100vh;
-	display: flex;
+  height: 100vh;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin: 3rem, 3rem, 0, 0;
   width: calc(100vw - 300px);
 }
+
 .swiper-slide{
 	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
+
 .swiper-slide img {
 width: auto !important;
 height: 80vh;
@@ -294,11 +295,15 @@ height: 70vh;
 .swiper-container{
 	margin-top: 5vh;
 	height: 60vh;
-	width: 90vw;
+	width: 100vw;
+	animation-name: animation;
+    animation-duration: 500ms;
 }
 
 .swiper-slide img {
 	height: 55vh;
+	animation-name: animation;
+    animation-duration: 500ms;
 }
 
   footer {

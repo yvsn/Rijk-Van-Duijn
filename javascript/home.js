@@ -40,8 +40,9 @@ window.onresize = function (event) {
 
 
   var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
+        spaceBetween: 50,
         autoHeight: true,
+        cssmode: true,
         freemode: true,
         loop: true,
         speed: 1500,
