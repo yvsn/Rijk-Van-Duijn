@@ -79,7 +79,7 @@ nav li a {
 }
 
 .copyright {
-  margin: 3rem 0 2rem 0;
+  margin: 0rem 0 2rem 0;
   font-family: "Montserrat", sans-serif;
   font-size: 0.75rem;
   text-align: center;
@@ -283,28 +283,6 @@ h1 {
   line-height: 1.5rem;
 }
 
-.AboutPicture {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.AboutPicture img {
-  height: 302px;
-  width: 245px;
-}
-
-.AboutText {
-  display: flex;
-  justify-content: center;
-  margin-top: 1.5rem;
-  margin-bottom: 4rem;
-}
-
-.AboutText p {
-  font-size: 1rem;
-}
-
 .footer-desktop {
   display: none;
 }
@@ -373,11 +351,6 @@ h1 {
 
 .ContactInstagram p{
   font-size: 0.875rem;
-}
-
-.instagram {
-  font-size: 0.7rem;
-
 }
 
 .copyright {
