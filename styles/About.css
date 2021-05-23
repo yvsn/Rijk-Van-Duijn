@@ -131,7 +131,7 @@ h1 {
 /* The commands that execute from breakpoint + 951px */
 @media screen and (min-width: 951px) {
 
-  header {
+header {
     position: fixed;
   }
 }
@@ -149,6 +149,7 @@ header {
   flex-direction: row;
   width: 100%;
   height: 12vh;
+  padding: 25px;
   -webkit-box-shadow: none;
 }
 
@@ -226,7 +227,7 @@ nav li a {
 }
 
 .AboutHeader {
-  height: 2.5rem;
+  height: 1.25rem;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -239,7 +240,7 @@ h1 {
 .AboutPicture {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .AboutPicture img {
@@ -250,7 +251,7 @@ h1 {
 .AboutText {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   margin-bottom: 4rem;
 }
 
@@ -266,13 +267,19 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-bottom: 1.5rem;
+  padding-bottom: 0;
   bottom: 0;
   background: white;
 }
 }
 
 @media screen and (max-width: 530px) {
+
+header {
+  padding: 20px;
+  height: 10vh;
+  z-index: 999;
+}
 
 header button {
   width: 20px;
@@ -294,7 +301,15 @@ nav li a {
 }
 
 h1 {
-  font-size: 1.125rem;
+  font-size: 1rem;
+}
+
+.AboutWrapper {
+  margin-top: 1.5rem;
+}
+
+.AboutHeader {
+  height: 1rem;
 }
 
 .AboutText p {
