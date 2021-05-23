@@ -39,7 +39,7 @@ header button {
 
 nav ul {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   font-weight: 500;
   line-height: 3rem;
 }
@@ -54,7 +54,7 @@ nav li a {
   text-decoration: none;
 }
 
-footer {
+.footer-desktop {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -62,6 +62,10 @@ footer {
   padding-top: 2rem;
   bottom: 0;
   background: white;
+}
+
+.footer-mobile {
+  display: none;
 }
 
 .instagram {
@@ -81,34 +85,53 @@ footer {
   line-height: 1.5;
 }
 
-.AboutWrapper{
+.AboutWrapper {
   display: flex;
   flex-direction: column;
+  margin-top: 4rem;
+  margin-left: 420px;
 }
 
-.AboutHeader{
-  margin-top: 5rem;
+.AboutHeader {
   height: 5rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-h1{
-  margin-left: 6rem;
+h1 {
   font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
+.AboutPicture {
+  margin-top: 2rem;
+}
+.AboutPicture img {
+  height: 396px;
+  width: 320px;
+}
 
-.AboutPicture{
-margin-left: 6rem;
+.AboutText {
+  width: 75%;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
 }
-.AboutPicture img{
-height: 396px;
-width: 320px;
+
+.AboutText p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5rem;
 }
-/* The commands that execute from breakpoint 950px */
+
+/* The commands that execute from breakpoint + 951px */
+@media screen and (min-width: 951px) {
+  header {
+    position: fixed;
+  }
+}
+/* The commands that execute from breakpoint - 950px */
 @media screen and (max-width: 950px) {
   main {
     flex-direction: column;
@@ -152,7 +175,7 @@ width: 320px;
     width: 100vw;
     height: 100vh;
     background: white;
-     z-index: 900;
+    z-index: 900;
   }
 
   /* definition of our animation for nav items */
@@ -190,14 +213,63 @@ width: 320px;
     display: block;
   }
 
-  footer {
-    position: absolute;
+  .AboutWrapper {
     display: flex;
+    align-content: center;
     align-items: center;
-    left: 0;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .AboutHeader {
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+  }
+  .AboutPicture {
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;
+  }
+  .AboutPicture img {
+    height: 302px;
+    width: 245px;
+  }
+
+  .AboutText {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .AboutText p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+
+  .footer-desktop {
+    display: none;
+  }
+
+  .footer-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 2rem;
     bottom: 0;
-    width: 100%;
-    z-index: -999;
+    background: white;
   }
 }
 
@@ -280,30 +352,24 @@ width: 320px;
     display: block;
   }
 
-  footer {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: -999;
+  .footer-desktop {
+    display: none;
   }
 
-	.instagram {
-  	color: black;
-  	font-family: "Montserrat", sans-serif;
-  	font-size: 0.7rem;
- 	font-weight: 500;
- 	text-decoration: none;
- 	text-align: center;
-	}
+  .instagram {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+  }
 
-	.copyright {
-  	margin: 3rem 0 1rem 0;
-  	font-family: "Montserrat", sans-serif;
-  	font-size: 0.5rem;
-  	text-align: center;
-  	line-height: 1.5;
-	}
+  .copyright {
+    margin: 3rem 0 1rem 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: 1.5;
+  }
 }
