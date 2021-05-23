@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 /* The master code */
 main {
   display: flex;
@@ -104,9 +105,11 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
+
 .AboutPicture {
   margin-top: 2rem;
 }
+
 .AboutPicture img {
   height: 396px;
   width: 320px;
@@ -127,249 +130,291 @@ h1 {
 
 /* The commands that execute from breakpoint + 951px */
 @media screen and (min-width: 951px) {
+
   header {
     position: fixed;
   }
 }
 /* The commands that execute from breakpoint - 950px */
 @media screen and (max-width: 950px) {
-  main {
-    flex-direction: column;
-  }
 
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
-    height: 12vh;
-    -webkit-box-shadow: none;
-  }
+main {
+  flex-direction: column;
+}
 
-  header button {
-    display: block;
-    width: 40px;
-    height: 40px;
-    background: none;
-    border: none;
-    transform: scale(1.5);
-    cursor: pointer;
-    z-index: 999;
-  }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  height: 12vh;
+  -webkit-box-shadow: none;
+}
 
-  header .name {
-    margin: 0;
-    font-weight: bold;
-    font-size: 1.7rem;
-    z-index: 999;
-  }
+header button {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  transform: scale(1.5);
+  cursor: pointer;
+  z-index: 999;
+}
 
-  nav {
-    display: none;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: white;
-    z-index: 900;
-  }
+header .name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.7rem;
+  z-index: 999;
+}
+
+nav {
+  display: none;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  z-index: 900;
+}
 
   /* definition of our animation for nav items */
-  @keyframes animation {
-    from {
-      transform: translateX(-100px);
-      opacity: 0;
-    }
-    to {
-      transform: translateX(0px);
-      opacity: 1;
-    }
+@keyframes animation {
+
+from {
+  transform: translateX(-100px);
+  opacity: 0;
+}
+to {
+  transform: translateX(0px);
+  opacity: 1;
+}
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  animation-name: animation; /* assign animation */
+  animation-duration: 500ms;
+}
+
+nav li {
+  list-style: none;
   }
 
-  nav li {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.1rem;
-    font-weight: 500;
-    animation-name: animation; /* assign animation */
-    animation-duration: 500ms;
-  }
+nav li a {
+  left: 100%;
+  text-decoration: none;
+  line-height: 5rem;
+  color: black;
+  display: block;
+}
 
-  nav li {
-    list-style: none;
-  }
+.AboutWrapper {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0;
+  margin-left: 0;
+}
 
-  nav li a {
-    left: 100%;
-    text-decoration: none;
-    line-height: 5rem;
-    color: black;
-    display: block;
-  }
+.AboutHeader {
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 
-  .AboutWrapper {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 0;
-    margin-left: 0;
-  }
+h1 {
+  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
 
-  .AboutHeader {
-    height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
+.AboutPicture {
+  justify-content: center;
+  display: flex;
+  margin-top: 1rem;
+}
 
-  h1 {
-    font-size: 1.25rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-  }
-  .AboutPicture {
-    justify-content: center;
-    display: flex;
-    margin-top: 1rem;
-  }
-  .AboutPicture img {
-    height: 302px;
-    width: 245px;
-  }
+.AboutPicture img {
+  height: 302px;
+  width: 245px;
+}
 
-  .AboutText {
-    display: flex;
-    justify-content: center;
-    width: 75%;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-  }
+.AboutText {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
 
-  .AboutText p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.125rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-  }
+.AboutText p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
 
-  .footer-desktop {
-    display: none;
-  }
+.footer-desktop {
+  display: none;
+}
 
-  .footer-mobile {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 2rem;
-    bottom: 0;
-    background: white;
-  }
+.footer-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 1.5rem;
+  bottom: 0;
+  background: white;
+}
 }
 
 @media screen and (max-width: 530px) {
-  main {
-    flex-direction: column;
+
+main {
+  flex-direction: column;
   }
 
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
-    height: 12vh;
-  }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  height: 12vh;
+}
 
-  header button {
-    display: block;
-    width: 20px;
-    height: 40px;
-    background: none;
-    border: none;
-    transform: scale(1.2);
-    cursor: pointer;
-    z-index: 999;
-  }
+header button {
+  display: block;
+  width: 20px;
+  height: 40px;
+  background: none;
+  border: none;
+  transform: scale(1.2);
+  cursor: pointer;
+  z-index: 999;
+}
 
-  header .name {
-    margin: 0;
-    font-weight: bold;
-    font-size: 1.25rem;
-    z-index: 999;
-  }
+header .name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.25rem;
+  z-index: 999;
+}
 
-  nav {
-    display: none;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: white;
-  }
+nav {
+  display: none;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+}
 
-  /* definition of our animation for nav items */
-  @keyframes animation {
-    from {
-      transform: translateX(-100px);
-      opacity: 0;
-    }
-    to {
-      transform: translateX(0px);
-      opacity: 1;
-    }
-  }
+/* definition of our animation for nav items */
+@keyframes animation {
+from {
+  transform: translateX(-100px);
+  opacity: 0;
+}
 
-  nav li {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: "Montserrat", sans-serif;
-    font-size: 0.9rem;
-    font-weight: 500;
-    animation-name: animation; /* assign animation */
-    animation-duration: 500ms;
-  }
+to {
+  transform: translateX(0px);
+  opacity: 1;
+}
+}
 
-  nav li {
-    list-style: none;
-  }
+nav li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  animation-name: animation; /* assign animation */
+  animation-duration: 500ms;
+}
 
-  nav li a {
-    left: 100%;
-    text-decoration: none;
-    line-height: 4rem;
-    color: black;
-    display: block;
-  }
+nav li {
+  list-style: none;
+}
 
-  .footer-desktop {
-    display: none;
-  }
+nav li a {
+  left: 100%;
+  text-decoration: none;
+  line-height: 4rem;
+  color: black;
+  display: block;
+}
 
-  .instagram {
-    color: black;
-    font-family: "Montserrat", sans-serif;
-    font-size: 0.7rem;
-    font-weight: 500;
-    text-decoration: none;
-    text-align: center;
-  }
+.AboutHeader {
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 
-  .copyright {
-    margin: 3rem 0 1rem 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 0.5rem;
-    text-align: center;
-    line-height: 1.5;
-  }
+h1 {
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.AboutPicture {
+  justify-content: center;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.AboutText {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.AboutText p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.AboutPicture img {
+  height: 234px;
+  width: 190px;
+}
+
+.instagram {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+}
+
+.copyright {
+  margin: 3rem 0 1rem 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 1.5;
+}
 }
