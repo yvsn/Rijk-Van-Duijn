@@ -4,8 +4,8 @@
     <title>Rijk van Duijn</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles/home.css" />
-    <script src="javascript/home.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles/contact.css" />
+    <script src="javascript/contact.js" defer></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
@@ -19,7 +19,7 @@
   </head>
   <body>
     <main>
-      <header>
+      <header id= "header">
         <a href="home.html" class="name">Rijk van Duijn</a>
         <button id="hamburger-button">
           <i class="fa fa-bars"></i>
@@ -33,22 +33,33 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
-        <footer>
-          <a href="https://www.instagram.com/contrastrijk/" target="_blank" rel="noopener noreferrer" class="instagram">Instagram</a>
+        <footer class="footer-desktop">
+           <a href="https://www.instagram.com/contrastrijk/" target="_blank" rel="noopener noreferrer" class="instagram">Instagram</a>
           <div class="copyright">
             <p>Copyright © 2021 Rijk van Duijn</p>
             <p>Created by Yannik Vaessen</p>
           </div>
         </footer>
       </header>
-      <div class="swiper-container mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="images/HomePage/slider2.jpg" alt="slider1"/></div>
-        <div class="swiper-slide"><img src="images/HomePage/slider4.jpg" alt="slider2"/></div>
-        <div class="swiper-slide"><img src="images/HomePage/slider1.png" alt="slider3"/></div>
-        <div class="swiper-slide"><img src="images/HomePage/slider3.jpg" alt="slider4"/></div>
-      </div>
-    </div>
+        <section class="ContactWrapper">
+          <div class="ContactHeader">
+            <h1>Contact<h1>
+          </div>
+            <div class="ContactLinks">
+              <div class="ContactMail">
+                <p>Email<br><a href="mailto:rijkvanduijn@gmail.com">rijkvanduijn@gmail.com</a></p>
+              </div>
+                <div class="ContactInstagram">
+                  <p>Instagram<br><a href="https://www.instagram.com/contrastrijk/" target="_blank" rel="noopener noreferrer">@contrastrijk</a></p>
+                </div>
+            </div>
+        </section>
+          <footer class="footer-mobile">
+              <div class="copyright">
+                <p>Copyright © 2021 Rijk van Duijn</p>
+                <p>Created by Yannik Vaessen</p>
+              </div>
+          </footer>
     </main>
   </body>
 </html>
