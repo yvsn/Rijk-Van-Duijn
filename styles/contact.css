@@ -79,7 +79,7 @@ nav li a {
 }
 
 .copyright {
-  margin: 0rem 0 2rem 0;
+  margin:0rem 0 2rem 0;
   font-family: "Montserrat", sans-serif;
   font-size: 0.75rem;
   text-align: center;
@@ -151,7 +151,8 @@ header {
 @media screen and (max-width: 950px) {
 
 main {
-  height: 100vh;
+  position: relative;
+  min-height: 100vh;
   flex-direction: column;
 }
 
@@ -338,7 +339,7 @@ h1 {
 }
 
 .ContactLinks{
-  height: 60vh;
+  height: 70vh;
 }
 
 .ContactMail p{
