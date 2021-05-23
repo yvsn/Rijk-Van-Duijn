@@ -336,7 +336,8 @@ h1 {
 }
 
 .ContactLinks{
-  height: 60vh;
+  height: 70vh;
+  height: calc(var(--vh, 1vh) * 70);
 }
 
 .ContactMail p{
