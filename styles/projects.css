@@ -116,7 +116,7 @@ h1 {
   "Aangetast Aangetast"
   "GetToKnowUs GetToKnowUs"
   "BlueNights nix";
-  grid-gap: 5rem;
+  grid-gap: 3rem;
 }
 
 .Aangetast {
@@ -375,11 +375,11 @@ h1 {
   font-size: 1rem;
 }
 
-.ProjectWrapper {
+.ProjectsWrapper {
   margin-top: 1.5rem;
 }
 
-.ProjectHeader {
+.ProjectsHeader {
   height: 1rem;
 }
 
