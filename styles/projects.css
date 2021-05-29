@@ -121,22 +121,23 @@ flex-direction: row;
 
 .Aangetast img {
   object-fit: cover;
-  height: 374px;
-  width: 376px;
+  max-width:100%;
+    height:auto;
 }
 
 .GetToKnowUs {
   display: flex;
   justify-content: flex-end;
-  height: 500px;
+  height: 600px;
+  width: 500px; 
   margin-top: 20rem;
   margin-left: 20rem;
   margin-right: 5rem;
 }
 
 .GetToKnowUs img {
-  height: 376px;
-  width: 420px;
+ max-width:100%;
+    height:auto;
 }
 
 .AboutText {
