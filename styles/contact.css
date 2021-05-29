@@ -232,6 +232,8 @@ nav li a {
 }
 
 .ContactWrapper {
+    height: 70vh;
+  height: calc(var(--vh, 1vh) * 70);
   display: flex;
   align-content: center;
   align-items: center;
@@ -251,8 +253,6 @@ h1 {
 }
 
 .ContactLinks{
-  height: 70vh;
-  height: calc(var(--vh, 1vh) * 70);
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -296,9 +296,12 @@ h1 {
   bottom: 0;
   background: white;
 }
-.copyright {
-  font-size: 0.5rem;
-  margin:3rem 0 0 0;
+.copyright-mobile {
+  margin:3rem 0 0rem 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 1.5;
 }
 }
 
@@ -358,8 +361,7 @@ h1 {
   font-size: 0.875rem;
 }
 
-.copyright {
+.copyright-mobile {
   font-size: 0.5rem;
-  margin:3rem 0 0 0;
 }
 }
