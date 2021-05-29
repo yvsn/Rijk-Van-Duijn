@@ -232,8 +232,6 @@ nav li a {
 }
 
 .ContactWrapper {
-    height: 70vh;
-  height: calc(var(--vh, 1vh) * 70);
   display: flex;
   align-content: center;
   align-items: center;
@@ -253,6 +251,8 @@ h1 {
 }
 
 .ContactLinks{
+  height: 70vh;
+  height: calc(var(--vh, 1vh) * 70);
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -265,7 +265,7 @@ h1 {
 }
 
 .ContactMail p{
-   text-align: center;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -345,8 +345,8 @@ h1 {
 }
 
 .ContactLinks{
-  height: 70vh;
-  height: calc(var(--vh, 1vh) * 70);
+  height: 67vh;
+  height: calc(var(--vh, 1vh) * 67);
 }
 
 .ContactMail p{
