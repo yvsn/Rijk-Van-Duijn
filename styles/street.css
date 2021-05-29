@@ -229,8 +229,8 @@ h1 {
 }
 
 .StreetText{
-  height: 70vh;
-  height: calc(var(--vh, 1vh) * 70);
+  height: 73vh;
+  height: calc(var(--vh, 1vh) * 73);
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -309,8 +309,8 @@ h1 {
 }
 
 .StreetText{
-  height: 65vh;
-  height: calc(var(--vh, 1vh) * 65);
+  height: 68vh;
+  height: calc(var(--vh, 1vh) * 68);
 }
 
 .StreetText p{

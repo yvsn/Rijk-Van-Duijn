@@ -273,7 +273,7 @@ h1 {
   background: white;
 }
 .copyright-mobile {
-  margin:3rem 0 3rem 0;
+  margin:3rem 0 2rem 0;
   font-family: "Montserrat", sans-serif;
   font-size: 0.75rem;
   text-align: center;
@@ -336,6 +336,6 @@ h1 {
 
 .copyright-mobile {
   font-size: 0.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 }
