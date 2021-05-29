@@ -87,6 +87,7 @@ nav li a {
 }
 
 .AboutWrapper {
+  width: 100vw;
   display: flex;
   flex-direction: column;
   margin-top: 4rem;
@@ -118,7 +119,7 @@ h1 {
 .AboutText {
   width: 75%;
   margin-top: 1.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .AboutText p {

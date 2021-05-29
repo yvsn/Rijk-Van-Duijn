@@ -86,14 +86,15 @@ nav li a {
   line-height: 1.5;
 }
 
-.AboutWrapper {
+.ProjectsWrapper {
+  width: 100vw;
   display: flex;
   flex-direction: column;
   margin-top: 4rem;
   margin-left: 420px;
 }
 
-.AboutHeader {
+.ProjectsHeader {
   height: 5rem;
   display: flex;
   justify-content: flex-start;
@@ -106,19 +107,42 @@ h1 {
   font-weight: 500;
 }
 
-.AboutPicture {
+.ProjectsContent{
+display: flex;
+flex-direction: row;
+}
+
+.Aangetast {
+  display: flex;
+  height: 400px;
+  width: 30%;
   margin-top: 2rem;
 }
 
-.AboutPicture img {
-  height: 396px;
-  width: 320px;
+.Aangetast img {
+  object-fit: cover;
+  height: 374px;
+  width: 376px;
+}
+
+.GetToKnowUs {
+  display: flex;
+  justify-content: flex-end;
+  height: 500px;
+  margin-top: 20rem;
+  margin-left: 20rem;
+  margin-right: 5rem;
+}
+
+.GetToKnowUs img {
+  height: 376px;
+  width: 420px;
 }
 
 .AboutText {
   width: 75%;
   margin-top: 1.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .AboutText p {
@@ -219,7 +243,7 @@ nav li a {
   line-height: 5rem;
 }
 
-.AboutWrapper {
+.ProjectsWrapper {
   display: flex;
   align-content: center;
   align-items: center;
@@ -227,7 +251,7 @@ nav li a {
   margin-left: 0;
 }
 
-.AboutHeader {
+.ProjectsHeader {
   height: 1.25rem;
   display: flex;
   justify-content: center;
@@ -273,7 +297,7 @@ h1 {
   background: white;
 }
 .copyright-mobile {
-  margin:3rem 0 3rem 0;
+  margin:3rem 0 2rem 0;
   font-family: "Montserrat", sans-serif;
   font-size: 0.75rem;
   text-align: center;
@@ -312,11 +336,11 @@ h1 {
   font-size: 1rem;
 }
 
-.AboutWrapper {
+.ProjectWrapper {
   margin-top: 1.5rem;
 }
 
-.AboutHeader {
+.ProjectHeader {
   height: 1rem;
 }
 
