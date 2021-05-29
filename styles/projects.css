@@ -108,49 +108,46 @@ h1 {
 }
 
 .ProjectsContent{
+  width: 90%;
   display: grid;
-  grid-template-columns: 0.3fr 1fr ;
-  grid-template-rows: 1fr 0.8fr 1fr; 
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 0.75fr 1fr; 
   grid-template-areas: 
-  "Aangetast GetToKnowUs"
-  "Aangetast GetToKnowUs"
+  "Aangetast Aangetast"
+  "GetToKnowUs GetToKnowUs"
   "BlueNights nix";
-  grid-gap: 1.5rem;
+  grid-gap: 5rem;
 }
 
 .Aangetast {
   margin-top: 2rem;
-  background: blue;
   grid-area: Aangetast;
 }
 
 .Aangetast img {
-  height: 320px;
-  width: 323px;
+  height: 376px;
+  width: 378px;
 }
 
 .GetToKnowUs {
-  background: green;
   grid-area: GetToKnowUs;
-  align-self: center;
-  justify-self: center;
+  justify-self: end;
 }
 
 .GetToKnowUs img {
-  height: 241px;
-  width: 269px;
+  height: 330px;
+  width: 369px;
 }
 
 .BlueNights{
-  margin-top: 2rem;
-  background: blue;
+  width: 25%;
   grid-area: BlueNights;
    justify-self: center;
 }
 
 .BlueNights img {
-  height: 323px;
-  width: 215px;
+  height: 376px;
+  width: 251px;
 }
 .AboutText {
   width: 75%;
@@ -164,6 +161,8 @@ h1 {
   font-weight: 400;
   line-height: 1.5rem;
 }
+
+
 
 /* The commands that execute from breakpoint + 951px */
 @media screen and (min-width: 951px) {
