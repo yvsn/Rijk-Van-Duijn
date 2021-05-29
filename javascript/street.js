@@ -12,7 +12,7 @@ hamburgerButton.onclick = function () {
     navOpen = true;
     navigation.style.display = "flex";
     document.body.classList.add("stop-scrolling");
-
+    
   } else {
     // set our "navOpen" state to false (false = closed)
     navOpen = false;

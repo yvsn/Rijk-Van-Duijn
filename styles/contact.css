@@ -296,6 +296,10 @@ h1 {
   bottom: 0;
   background: white;
 }
+.copyright {
+  font-size: 0.5rem;
+  margin:3rem 0 0 0;
+}
 }
 
 @media screen and (max-width: 530px) {
@@ -356,5 +360,6 @@ h1 {
 
 .copyright {
   font-size: 0.5rem;
+  margin:3rem 0 0 0;
 }
 }
