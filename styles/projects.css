@@ -108,35 +108,60 @@ h1 {
 }
 
 .ProjectsContent{
-  width: 90%;
-  display: grid;
-  grid-template-columns: 1fr 1fr ;
-  grid-template-rows: 1fr 0.65fr 1.05fr; 
-  grid-template-areas: 
-  "Aangetast Aangetast"
-  "GetToKnowUs GetToKnowUs"
-  "BlueNights nix";
+  position: relative;
+  width: 85%;
+  display:flex;
+  flex-direction: column;
   grid-gap: 3rem;
 }
 
 .Aangetast {
+  width: 376px;
+  position: relative;
+  display: flex;
   margin-top: 2rem;
-  grid-area: Aangetast;
 }
-
+.Aangetast p {  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
 .Aangetast img {
   height: 376px;
   width: 378px;
   transition: 0.5s;
 }
 
+.Aangetast :not(img,a){
+position: absolute;
+top: calc(50% - 1rem);
+z-index: 1;
+color: white;
+text-align: center;
+width: 376px;
+opacity: 0;
+transition: 0.5s;
+}
+
+.Aangetast:hover :not(img,a){
+opacity: 1;
+}
+
 .Aangetast img:hover {
-transform: scale(0.95);
+transform: scale(1.05);
+filter:blur(2px) brightness(50%);
 }
 
 .GetToKnowUs {
-  grid-area: GetToKnowUs;
-  justify-self: end;
+  position: relative;
+  display: flex;
+  justify-content:flex-end;
+}
+.GetToKnowUs2 {
+  position: relative;
+  width: 422px;
+  display: flex;
+  justify-content:flex-end;
 }
 
 .GetToKnowUs img {
@@ -145,22 +170,70 @@ transform: scale(0.95);
   transition: 0.5s;
 }
 
-.GetToKnowUs img:hover {
-transform: scale(0.95);
+.GetToKnowUs p {  
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5rem;
 }
 
-.BlueNights{
-  grid-area: BlueNights;
-   justify-self: center;
+.GetToKnowUs2 :not(img,a){
+  position: absolute;
+  top: calc(50% - 1rem);
+  z-index: 1;
+  color: white;
+  text-align: center;
+  width: 422px;
+  opacity: 0;
+  transition: 0.5s;
 }
 
-.BlueNights img {
+.GetToKnowUs2:hover :not(img,a){
+  opacity: 1;
+}
+
+.GetToKnowUs2 img:hover {
+  transform: scale(1.05);
+  filter:blur(2px) brightness(50%);
+}
+
+.HKU{
+  position: relative;
+  width: 251px;
+  margin: 0 0 3rem 6rem;
+}
+
+.HKU img {
   height: 376px;
   width: 251px;
+  transition: 0.5s
 }
 
-.BlueNights img:hover {
-transform: scale(0.95);
+.HKU p {  
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.HKU :not(img,a){
+  position: absolute;
+  top: calc(50% - 1rem);
+  z-index: 1;
+  color: white;
+  text-align: center;
+  width: 251px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.HKU:hover :not(img,a){
+  opacity: 1;
+}
+
+.HKU img:hover {
+transform: scale(1.05);
+filter:blur(2px) brightness(50%);
 }
 
 @media screen and (max-width: 1380px) {
