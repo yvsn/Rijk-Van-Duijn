@@ -260,7 +260,7 @@ h1 {
 }
 
 .copyright {
-  margin:3rem 0 0 0;
+  margin:3rem 0 0rem 0;
 }
 }
 
@@ -319,6 +319,6 @@ h1 {
 
 .copyright {
   font-size: 0.5rem;
-  margin:3rem 0 0 0;
+  margin:3rem 0 0rem 0;
 }
 }
