@@ -111,7 +111,7 @@ h1 {
   width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr ;
-  grid-template-rows: 1fr 0.65fr 1fr; 
+  grid-template-rows: 1fr 0.65fr 1.05fr; 
   grid-template-areas: 
   "Aangetast Aangetast"
   "GetToKnowUs GetToKnowUs"
@@ -291,8 +291,8 @@ h1 {
 }
 
 .Aangetast img {
-  height: 376px;
-  width: 378px;
+  height: 272px;
+  width: 278px;
 }
 
 .GetToKnowUs {
@@ -300,8 +300,8 @@ h1 {
 }
 
 .GetToKnowUs img {
-  height: 330px;
-  width: 369px;
+  height: 195px;
+  width: 313px;
 }
 
 .BlueNights{
@@ -309,8 +309,8 @@ h1 {
 }
 
 .BlueNights img {
-  height: 376px;
-  width: 251px;
+  height: 278px;
+  width: 186px;
 }
 .AboutPicture {
   display: flex;
@@ -321,17 +321,6 @@ h1 {
 .AboutPicture img {
   height: 302px;
   width: 245px;
-}
-
-.AboutText {
-  display: flex;
-  justify-content: center;
-  margin-top: 1.5rem;
-  margin-bottom: 3rem;
-}
-
-.AboutText p {
-  font-size: 1rem;
 }
 
 .footer-desktop {
@@ -394,13 +383,20 @@ h1 {
   height: 1rem;
 }
 
-.AboutText p {
-  font-size: 0.875rem;
+.Aangetast img {
+  height: 214px;
+  width: 219px;
 }
 
-.AboutPicture img {
-  height: 234px;
-  width: 190px;
+.GetToKnowUs img {
+  height: 153px;
+  width: 247px;
+}
+
+.BlueNights img {
+  height: 219px;
+  width: 147px;
+}
 }
 
 .instagram {
