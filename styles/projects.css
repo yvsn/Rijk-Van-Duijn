@@ -135,8 +135,8 @@ h1 {
 }
 
 .GetToKnowUs img {
-  height: 330px;
-  width: 369px;
+  height: 264px;
+  width: 422px;
 }
 
 .BlueNights{
@@ -148,18 +148,6 @@ h1 {
   height: 376px;
   width: 251px;
 }
-.AboutText {
-  width: 75%;
-  margin-top: 1.5rem;
-  margin-bottom: 5rem;
-}
-
-.AboutText p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.125rem;
-  font-weight: 400;
-  line-height: 1.5rem;
-}
 
 @media screen and (max-width: 1380px) {
 .Aangetast img {
@@ -168,8 +156,8 @@ h1 {
 }
 
 .GetToKnowUs img {
-  height: 287px;
-  width: 320px;
+  height: 212px;
+  width: 339px;
 }
 
 .BlueNights img {
@@ -274,6 +262,7 @@ nav li a {
   display: flex;
   align-content: center;
   align-items: center;
+  flex-direction: column;
   margin-top: 0;
   margin-left: 0;
 }
@@ -289,6 +278,40 @@ h1 {
   font-size: 1.25rem;
 }
 
+.ProjectsContent{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem; 
+}
+
+.Aangetast {
+  margin-top: 2rem;
+}
+
+.Aangetast img {
+  height: 376px;
+  width: 378px;
+}
+
+.GetToKnowUs {
+
+}
+
+.GetToKnowUs img {
+  height: 330px;
+  width: 369px;
+}
+
+.BlueNights{
+
+}
+
+.BlueNights img {
+  height: 376px;
+  width: 251px;
+}
 .AboutPicture {
   display: flex;
   justify-content: center;
