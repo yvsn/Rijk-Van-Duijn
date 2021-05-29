@@ -108,38 +108,50 @@ h1 {
 }
 
 .ProjectsContent{
-display: flex;
-flex-direction: row;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr ;
+  grid-template-rows: 1fr 0.8fr 1fr; 
+  grid-template-areas: 
+  "Aangetast GetToKnowUs"
+  "Aangetast GetToKnowUs"
+  "BlueNights nix";
+  grid-gap: 1.5rem;
 }
 
 .Aangetast {
-  display: flex;
-  height: 400px;
-  width: 30%;
   margin-top: 2rem;
+  background: blue;
+  grid-area: Aangetast;
 }
 
 .Aangetast img {
-  object-fit: cover;
-  max-width:100%;
-    height:auto;
+  height: 320px;
+  width: 323px;
 }
 
 .GetToKnowUs {
-  display: flex;
-  justify-content: flex-end;
-  height: 600px;
-  width: 500px; 
-  margin-top: 20rem;
-  margin-left: 20rem;
-  margin-right: 5rem;
+  background: green;
+  grid-area: GetToKnowUs;
+  align-self: center;
+  justify-self: center;
 }
 
 .GetToKnowUs img {
- max-width:100%;
-    height:auto;
+  height: 241px;
+  width: 269px;
 }
 
+.BlueNights{
+  margin-top: 2rem;
+  background: blue;
+  grid-area: BlueNights;
+   justify-self: center;
+}
+
+.BlueNights img {
+  height: 323px;
+  width: 215px;
+}
 .AboutText {
   width: 75%;
   margin-top: 1.5rem;
