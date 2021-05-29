@@ -111,7 +111,7 @@ h1 {
   width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr ;
-  grid-template-rows: 1fr 0.75fr 1fr; 
+  grid-template-rows: 1fr 0.65fr 1fr; 
   grid-template-areas: 
   "Aangetast Aangetast"
   "GetToKnowUs GetToKnowUs"
@@ -140,7 +140,6 @@ h1 {
 }
 
 .BlueNights{
-
   grid-area: BlueNights;
    justify-self: center;
 }
@@ -162,6 +161,22 @@ h1 {
   line-height: 1.5rem;
 }
 
+@media screen and (max-width: 1380px) {
+.Aangetast img {
+  height: 280px;
+  width: 288px;
+}
+
+.GetToKnowUs img {
+  height: 287px;
+  width: 320px;
+}
+
+.BlueNights img {
+  height: 286px;
+  width: 191px;
+}
+}
 
 
 /* The commands that execute from breakpoint + 951px */
