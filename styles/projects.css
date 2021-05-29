@@ -140,7 +140,7 @@ h1 {
 }
 
 .BlueNights{
-  width: 25%;
+
   grid-area: BlueNights;
    justify-self: center;
 }
