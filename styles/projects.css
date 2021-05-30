@@ -107,6 +107,13 @@ h1 {
   font-weight: 500;
 }
 
+ h2 {  
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
 .ProjectsContent{
   position: relative;
   width: 85%;
@@ -121,11 +128,7 @@ h1 {
   display: flex;
   margin-top: 2rem;
 }
-.Aangetast p {  font-family: "Montserrat", sans-serif;
-  font-size: 1.125rem;
-  font-weight: 400;
-  line-height: 1.5rem;
-}
+
 .Aangetast img {
   height: 376px;
   width: 378px;
@@ -133,23 +136,23 @@ h1 {
 }
 
 .Aangetast :not(img,a){
-position: absolute;
-top: calc(50% - 1rem);
-z-index: 1;
-color: white;
-text-align: center;
-width: 376px;
-opacity: 0;
-transition: 0.5s;
+  position: absolute;
+  top: calc(50% - 1rem);
+  z-index: 1;
+  color: white;
+  text-align: center;
+  width: 376px;
+  opacity: 0;
+  transition: 0.5s;
 }
 
 .Aangetast:hover :not(img,a){
-opacity: 1;
+  opacity: 1;
 }
 
 .Aangetast img:hover {
-transform: scale(1.05);
-filter:blur(2px) brightness(50%);
+  transform: scale(1.05);
+  filter:blur(2px) brightness(50%);
 }
 
 .GetToKnowUs {
@@ -168,13 +171,6 @@ filter:blur(2px) brightness(50%);
   height: 264px;
   width: 422px;
   transition: 0.5s;
-}
-
-.GetToKnowUs p {  
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.125rem;
-  font-weight: 400;
-  line-height: 1.5rem;
 }
 
 .GetToKnowUs2 :not(img,a){
@@ -209,13 +205,6 @@ filter:blur(2px) brightness(50%);
   transition: 0.5s
 }
 
-.HKU p {  
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.125rem;
-  font-weight: 400;
-  line-height: 1.5rem;
-}
-
 .HKU :not(img,a){
   position: absolute;
   top: calc(50% - 1rem);
@@ -237,9 +226,26 @@ filter:blur(2px) brightness(50%);
 }
 
 @media screen and (max-width: 1380px) {
+  
+.Aangetast {
+  width: 288px;
+}
+
+.Aangetast :not(img,a){
+  width: 288px;
+}
+
 .Aangetast img {
   height: 280px;
   width: 288px;
+}
+
+.GetToKnowUs2 {
+  width: 339px;
+}
+
+.GetToKnowUs :not(img,a){
+  width: 339px;
 }
 
 .GetToKnowUs img {
@@ -247,12 +253,19 @@ filter:blur(2px) brightness(50%);
   width: 339px;
 }
 
-.BlueNights img {
+.HKU {
+  width: 191px;
+}
+
+.HKU :not(img,a){
+  width: 191px;
+}
+
+.HKU img {
   height: 286px;
   width: 191px;
 }
 }
-
 
 /* The commands that execute from breakpoint + 951px */
 @media screen and (min-width: 951px) {
@@ -365,6 +378,10 @@ h1 {
   font-size: 1.25rem;
 }
 
+ h2 {  
+  font-size: 1rem;
+}
+
 .ProjectsContent{
   width: 90%;
   display: flex;
@@ -374,7 +391,12 @@ h1 {
 }
 
 .Aangetast {
+  width: 278px;
   margin-top: 2rem;
+}
+
+.Aangetast :not(img,a){
+  width: 278px;
 }
 
 .Aangetast img {
@@ -383,7 +405,11 @@ h1 {
 }
 
 .GetToKnowUs {
+width: 313px;
+}
 
+.GetToKnowUs2 :not(img,a){
+  width: 313px;
 }
 
 .GetToKnowUs img {
@@ -391,11 +417,16 @@ h1 {
   width: 313px;
 }
 
-.BlueNights{
-
+.HKU {
+  margin: 0 ;
+  width: 186px;
 }
 
-.BlueNights img {
+.HKU :not(img,a){
+  width: 186px;
+}
+
+.HKU img {
   height: 278px;
   width: 186px;
 }
@@ -452,6 +483,10 @@ h1 {
   font-size: 1rem;
 }
 
+ h2 {  
+  font-size: 0.875rem;
+}
+
 .ProjectsWrapper {
   margin-top: 1.5rem;
 }
@@ -460,9 +495,25 @@ h1 {
   height: 1rem;
 }
 
+.Aangetast {
+  width: 219px;
+}
+
+.Aangetast :not(img,a){
+  width: 219px;
+}
+
 .Aangetast img {
   height: 214px;
   width: 219px;
+}
+
+.GetToKnowUs {
+  width: 247px;
+}
+
+.GetToKnowUs :not(img,a){
+  width: 247px;
 }
 
 .GetToKnowUs img {
@@ -470,10 +521,17 @@ h1 {
   width: 247px;
 }
 
-.BlueNights img {
-  height: 219px;
+.HKU {
   width: 147px;
 }
+
+.HKU :not(img,a){
+  width: 147px;
+}
+
+.HKU img {
+  height: 219px;
+  width: 147px;
 }
 
 .instagram {
