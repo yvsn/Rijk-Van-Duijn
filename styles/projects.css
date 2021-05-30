@@ -120,6 +120,7 @@ h1 {
   display:flex;
   flex-direction: column;
   grid-gap: 3rem;
+  margin-bottom: 5rem;
 }
 
 .Aangetast {
@@ -196,7 +197,7 @@ h1 {
 .HKU{
   position: relative;
   width: 251px;
-  margin: 0 0 3rem 6rem;
+  margin: 0 0 0 6rem;
 }
 
 .HKU img {
@@ -228,42 +229,43 @@ filter:blur(2px) brightness(50%);
 @media screen and (max-width: 1380px) {
   
 .Aangetast {
-  width: 288px;
+  width: 257px;
 }
 
 .Aangetast :not(img,a){
-  width: 288px;
+  width: 257px;
 }
 
 .Aangetast img {
-  height: 280px;
-  width: 288px;
+  height: 252px;
+  width: 257px;
 }
 
 .GetToKnowUs2 {
-  width: 339px;
+  width: 289px;
 }
 
 .GetToKnowUs :not(img,a){
-  width: 339px;
+  width: 289px;
 }
 
 .GetToKnowUs img {
-  height: 212px;
-  width: 339px;
+  height: 181px;
+  width: 289px;
 }
 
 .HKU {
-  width: 191px;
+  width: 172px;
+  margin: 0 0 0rem 3rem;
 }
 
 .HKU :not(img,a){
-  width: 191px;
+  width: 172px;
 }
 
 .HKU img {
-  height: 286px;
-  width: 191px;
+  height: 257px;
+  width: 172px;
 }
 }
 
