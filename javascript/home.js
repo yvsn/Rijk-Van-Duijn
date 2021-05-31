@@ -49,7 +49,7 @@ window.onresize = function (event) {
           disableOnInteraction: false,
         },
          breakpoints: {
-        // when window width is <= 999px
+        // when window width is <= 530px
         530: {
             spaceBetweenSlides: 40,
         }

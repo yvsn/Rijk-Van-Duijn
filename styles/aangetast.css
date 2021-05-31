@@ -87,7 +87,7 @@ nav li a {
   line-height: 1.5;
 }
 
-.AboutWrapper {
+.AangetastWrapper {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -95,7 +95,7 @@ nav li a {
   margin-left: 300px;
 }
 
-.AboutHeader {
+.AangetastHeader {
   height: 5rem;
   display: flex;
   justify-content: flex-start;
@@ -125,11 +125,23 @@ h1 {
   justify-content: center;
   align-items: center;
   width: calc(100vw - 500px);
+  display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
 }
 
 .swiper-slide img {
-width: auto !important;
-height: 73vh;
+  width: auto !important;
+  height: 73vh;
 }
 
 .Images-mobile{
@@ -227,7 +239,7 @@ nav li a {
   line-height: 5rem;
 }
 
-.AboutWrapper {
+.AangetastWrapper {
   display: flex;
   align-content: center;
   align-items: center;
@@ -235,7 +247,7 @@ nav li a {
   margin-left: 0;
 }
 
-.AboutHeader {
+.AangetastHeader {
   height: 1.25rem;
   margin-left: 0;
   display: flex;
@@ -318,11 +330,11 @@ h1 {
   font-size: 1rem;
 }
 
-.AboutWrapper {
+.AangetastWrapper {
   margin-top: 1.5rem;
 }
 
-.AboutHeader {
+.AangetastHeader {
   height: 1rem;
 }
 
@@ -367,5 +379,6 @@ margin-bottom: 3rem;
   font-size: 0.5rem;
   text-align: center;
   line-height: 1.5;
+  margin-bottom: 1.5rem;
   }
 }
