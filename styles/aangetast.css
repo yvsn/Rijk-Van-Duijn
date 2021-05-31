@@ -151,7 +151,7 @@ h1 {
 @media screen and (max-width: 1380px) {
  .swiper-slide img {
   width: auto !important;
-  height: 60vh;
+  height: 65vh;
 }
 }  
 
