@@ -96,7 +96,7 @@ nav li a {
 }
 
 .AangetastHeader {
-  height: 5rem;
+  height: 4rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -113,8 +113,6 @@ h1 {
 .swiper-container{
   height: 90vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
   width: calc(100vw - 300px);
 }
 
