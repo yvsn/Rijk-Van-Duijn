@@ -56,7 +56,7 @@ nav li a {
   text-decoration: none;
 }
 
-footer {
+.footer-desktop {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -64,6 +64,10 @@ footer {
   padding-top: 2rem;
   bottom: 0;
   background: white;
+}
+
+.footer-mobile {
+  display: none;
 }
 
 .instagram {
@@ -106,7 +110,6 @@ h1 {
   font-weight: 500;
 }
 
-
 .swiper-container{
   height: 90vh;
   display: flex;
@@ -127,6 +130,10 @@ h1 {
 .swiper-slide img {
 width: auto !important;
 height: 73vh;
+}
+
+.Images-mobile{
+  display: none;
 }
 
 /* The commands that execute from breakpoint + 951px */
@@ -248,18 +255,35 @@ h1 {
 }
 
 .swiper-slide img {
-  height: 68vh;
-  height: calc(var(--vh, 1vh) * 68);
+  height: 67vh;
+  height: calc(var(--vh, 1vh) * 67);
 }
 
-footer {
+.Images-mobile{
+  display: none;
+}
+
+.footer-desktop {
+  display: none;
+}
+
+.footer-mobile {
     position: absolute;
     display: flex;
     align-items: center;
+    flex-direction: column;
     left: 0;
     bottom: 0;
     width: 100%;
     z-index: -999;
+}
+
+.copyright-mobile {
+  margin:3rem 0 2rem 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 1.5;
 }
 }
 
@@ -303,12 +327,30 @@ h1 {
 }
 
 .swiper-container{
-  margin-top: 1vh;
-  height: 50vh;
+ display: none;
 }
 
-.swiper-slide img {
-  height: 40vh;
+.Images-mobile{
+  display: flex;
+  width: 100vw;
+  align-content: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+img{
+width: 272px;
+height: 271px;
+margin-bottom: 3rem;
+}
+
+.footer-mobile {
+  position: initial ;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+  bottom: 0;
+  width: 100%;
+  background: white;
 }
 
 .instagram {
@@ -320,9 +362,10 @@ h1 {
   text-align: center;
   }
 
-.copyright {
+.copyright-mobile {
   font-family: "Montserrat", sans-serif;
   font-size: 0.5rem;
   text-align: center;
   line-height: 1.5;
   }
+}
