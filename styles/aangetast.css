@@ -148,6 +148,13 @@ h1 {
   display: none;
 }
 
+@media screen and (max-width: 1380px) {
+ .swiper-slide img {
+  width: auto !important;
+  height: 60vh;
+}
+}  
+
 /* The commands that execute from breakpoint + 951px */
 @media screen and (min-width: 951px) {
 
