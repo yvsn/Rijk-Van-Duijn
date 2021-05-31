@@ -52,6 +52,13 @@ window.onresize = function (event) {
           delay: 5000,
           disableOnInteraction: false,
         },
+        breakpoints: {
+        // when window width is <= 950px
+        950: {
+            spaceBetweenSlides: 40,
+        }
+    }
+
       });
 
 //Mobile VH fix

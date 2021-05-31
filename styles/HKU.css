@@ -268,14 +268,16 @@ h1 {
 
 .swiper-container{
   height: 70vh;
-  height: calc(var(--vh, 1vh) * 63);
+  height: calc(var(--vh, 1vh) * 70);
   width: 100%;
   margin: 0;
 }
 
 .swiper-slide img {
-  height: 67vh;
-  height: calc(var(--vh, 1vh) * 67);
+  margin-top: 10vh;
+  height: 45vh;
+  height: calc(var(--vh, 1vh) * 45);
+
 }
 
 .Images-mobile{
@@ -345,21 +347,30 @@ h1 {
   height: 1rem;
 }
 
-.swiper-container{
+.swiper-container {
  display: none;
 }
 
-.Images-mobile{
+.Images-mobile {
   display: flex;
   width: 100vw;
+  flex-direction: column;
   align-content: center;
+  align-items: center;
   justify-content: center;
   margin-top: 2rem;
 }
-img{
-width: 272px;
-height: 271px;
-margin-bottom: 3rem;
+
+.img1 img, .img2 img, .img3 img  {
+  width: 189px;
+  height: 283px;
+  margin-bottom: 3rem;
+}
+
+.img4 img, .img5 img, .img6 img {
+  width: 283px;
+  height: 189px;
+  margin-bottom: 3rem;
 }
 
 .footer-mobile {
