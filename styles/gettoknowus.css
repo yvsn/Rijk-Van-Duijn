@@ -328,8 +328,8 @@ h1 {
 
 .video iframe {
   width: 90vw;
-  height: 25vh;
-  height: calc(var(--vh, 1vh) * 25);
+  height: 35vh;
+  height: calc(var(--vh, 1vh) * 35);
 
 }
 
