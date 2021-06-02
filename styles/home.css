@@ -116,8 +116,8 @@ footer {
 }
 
 .swiper-slide img {
-width: auto !important;
-height: 80vh;
+  width: auto !important;
+  height: 80vh;
 }
 
 /* The commands that execute from breakpoint 950px */
@@ -241,11 +241,11 @@ nav li a {
 
 .swiper-container{
 	margin-top: 7vh;
-	height: 60vh;
+	height: 40vh;
 }
 
 .swiper-slide img {
-	height: 50vh;
+	height: 40vh;
 }
 
 .instagram {
