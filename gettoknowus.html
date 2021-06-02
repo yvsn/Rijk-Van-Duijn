@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Rijk van Duijn</title>
+    <title>Get To Know Us</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles/home.css" />
-    <script src="javascript/home.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles/gettoknowus.css" />
+    <script src="javascript/gettoknowus.js" defer></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
@@ -15,11 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/ef1c27da98.js" crossorigin="anonymous"></script>
-
   </head>
-  <body onload="document.body.style.opacity='1'">
+  <body>
     <main>
-      <header>
+      <header id= "header">
         <a href="home.html" class="name">Rijk van Duijn</a>
         <button id="hamburger-button">
           <i class="fa fa-bars"></i>
@@ -33,7 +32,7 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
-        <footer>
+        <footer class="footer-desktop">
           <a href="https://www.instagram.com/contrastrijk/" target="_blank" rel="noopener noreferrer" class="instagram">Instagram</a>
           <div class="copyright">
             <p>Copyright © 2021 Rijk van Duijn</p>
@@ -41,14 +40,20 @@
           </div>
         </footer>
       </header>
-      <div class="swiper-container mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="images/HomePage/slider2.jpg" alt="slider1"/></div>
-        <div class="swiper-slide"><img src="images/HomePage/slider4.jpg" alt="slider2"/></div>
-        <div class="swiper-slide"><img src="images/HomePage/slider1.png" alt="slider3"/></div>
-        <div class="swiper-slide"><img src="images/HomePage/slider3.jpg" alt="slider4"/></div>
-      </div>
-    </div>
+        <section class= "GetToKnowUsWrapper">
+          <div class= "GetToKnowUsHeader">
+            <h1>Get To Know Us<h1>
+          </div>
+            <div class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/roYZlx6FICM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <footer class="footer-mobile">
+            <a href="https://www.instagram.com/contrastrijk/" target="_blank" rel="noopener noreferrer" class="instagram">Instagram</a>
+              <div class="copyright-mobile">
+                <p>Copyright © 2021 Rijk van Duijn</p>
+                <p>Created by Yannik Vaessen</p>
+              </div>
+          </footer>
     </main>
   </body>
 </html>
