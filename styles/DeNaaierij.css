@@ -384,9 +384,10 @@ h1 {
   bottom: 0;
   width: 100%;
   background: white;
+  z-index: 1;
 }
 
-.instagram {
+.instagram{
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 0.7rem;

@@ -439,13 +439,15 @@ width: 313px;
 }
 
 .footer-mobile {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 0;
-  bottom: 0;
-  width: 100%;
-  background: white;
+    position: initial ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
+
 .copyright-mobile {
   margin:3rem 0 2rem 0;
   font-family: "Montserrat", sans-serif;
@@ -542,8 +544,30 @@ h1 {
 
 }
 
-.copyright-mobile {
-  font-size: 0.5rem;
-  margin-bottom: 1.5rem;
+.footer-mobile {
+  position: initial ;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+  bottom: 0;
+  width: 100%;
+  background: white;
 }
+
+.instagram{
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  }
+
+.copyright-mobile {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  }
 }
