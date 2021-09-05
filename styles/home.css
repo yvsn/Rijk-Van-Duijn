@@ -8,6 +8,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body{
@@ -62,7 +63,7 @@ nav li a {
   text-decoration: none;
 }
 
-footer {
+.footer-desktop {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -70,6 +71,10 @@ footer {
   padding-top: 2rem;
   bottom: 0;
   background: white;
+}
+
+.footer-mobile {
+  display: none;
 }
 
 .instagram {
@@ -205,15 +210,27 @@ footer {
 	height: 70vh;
 }
 
-footer {
+.footer-desktop {
+  display: none;
+}
+
+.footer-mobile {
     position: absolute;
     display: flex;
     align-items: center;
+    flex-direction: column;
     left: 0;
     bottom: 0;
     width: 100%;
     z-index: -999;
-  }
+}
+.copyright-mobile {
+  margin:3rem 0 2rem 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 1.5;
+}
 }
 
 @media screen and (max-width: 530px) {
@@ -249,19 +266,30 @@ nav li a {
 	height: 40vh;
 }
 
-.instagram {
-  	color: black;
-  	font-family: "Montserrat", sans-serif;
-  	font-size: 0.7rem;
- 	font-weight: 500;
- 	text-decoration: none;
- 	text-align: center;
-	}
+.footer-mobile {
+  position: initial ;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+  bottom: 0;
+  width: 100%;
+  background: white;
+}
 
-.copyright {
-  	font-family: "Montserrat", sans-serif;
-  	font-size: 0.5rem;
-  	text-align: center;
-  	line-height: 1.5;
-	}
+.instagram {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  }
+
+.copyright-mobile {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  }
 }
