@@ -66,6 +66,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
   position: absolute;
   padding-top: 2rem;
   bottom: 0;
@@ -73,6 +74,7 @@ footer {
 }
 
 .instagram {
+  position: absolute;
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
