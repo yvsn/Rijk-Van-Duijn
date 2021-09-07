@@ -166,7 +166,7 @@ footer {
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     background: white;
-     z-index: 900;
+    z-index: 900;
   }
 
   /* definition of our animation for nav items */
@@ -182,9 +182,7 @@ footer {
   }
 
   nav li {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 1.1rem;
     font-weight: 500;

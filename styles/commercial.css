@@ -401,9 +401,7 @@ to {
 }
 
 nav li {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 1.1rem;
   font-weight: 500;
